@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '.' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/mac/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package.tgz
+12 verbose folder .
+13 info prepublish cordova-plugin-extras-google-play-services@1.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/mac/.npm/1f1177db-tar.lock
+16 silly lockFile 17c6e57e--play-services-1-0-1-package-tgz tar:///Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package.tgz
+17 verbose lock tar:///Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package.tgz /Users/mac/.npm/17c6e57e--play-services-1-0-1-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 17c6e57e--play-services-1-0-1-package-tgz tar:///Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package.tgz
+21 silly lockFile 17c6e57e--play-services-1-0-1-package-tgz tar:///Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package.tgz
+22 silly lockFile b691a003-ogle-play-services-1-0-1-package /Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package
+23 verbose lock /Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package /Users/mac/.npm/b691a003-ogle-play-services-1-0-1-package.lock
+24 silly lockFile b691a003-ogle-play-services-1-0-1-package /Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package
+25 silly lockFile b691a003-ogle-play-services-1-0-1-package /Users/mac/.npm/cordova-plugin-extras-google-play-services/1.0.1/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { version: '1.0.1',
+28 silly publish   name: 'cordova-plugin-extras-google-play-services',
+28 silly publish   cordova_name: 'Google Play Services for Android',
+28 silly publish   platforms: [ 'android' ],
+28 silly publish   engines: [ { name: 'cordova', version: '>=3.0.0' } ],
+28 silly publish   readme: '# Play Services for Cordova\n\nThis is a simple Cordova plugin that adds the [Google Play Services](http://developer.android.com/google/play-services/setup.html)\nclient library to your app.\n\n## Developer Guide\n\nThis plugin should be used by plugin authors as a dependency, if their plugin\'s Android native code requires the Play Services.\nSee for example [chrome.identity](https://github.com/MobileChromeApps/mobile-chrome-apps/tree/master/chrome-cordova/plugins/chrome.identity).\n\n## Update Instructions\n\n1. Install the .jar via the Android SDK Manager (`android sdk`)\n2. Copy it from `android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar`\n3. Update the version number in `plugin.xml` to match `Pkg.Revision` from `android-sdk/extras/google/google_play_services/source.properties`\n4. Copy in the new `version.xml` from `android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/res/values`\n5. Run `plugman publish .` to publish to registry\n',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: '371b2a920e0fe76d1b15de03fc1e6455cb5c96c1',
+28 silly publish   description: 'This is a simple Cordova plugin that adds the [Google Play Services](http://developer.android.com/google/play-services/setup.html) client library to your app.',
+28 silly publish   _id: 'cordova-plugin-extras-google-play-services@1.0.1',
+28 silly publish   scripts: {},
+28 silly publish   _shasum: '3b5972a274d39752b21f6fa0cda7a3b3281e8dd7',
+28 silly publish   _from: '.' }
+29 verbose request where is /cordova-plugin-extras-google-play-services
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id cc9f557497fb15cd
+32 verbose url raw /cordova-plugin-extras-google-play-services
+33 verbose url resolving [ 'https://registry.npmjs.org/',
+33 verbose url resolving   './cordova-plugin-extras-google-play-services' ]
+34 verbose url resolved https://registry.npmjs.org/cordova-plugin-extras-google-play-services
+35 verbose request where is https://registry.npmjs.org/cordova-plugin-extras-google-play-services
+36 info trying registry request attempt 1 at 16:28:19
+37 http PUT https://registry.npmjs.org/cordova-plugin-extras-google-play-services
+38 http 403 https://registry.npmjs.org/cordova-plugin-extras-google-play-services
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   'content-length': '95',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Thu, 25 Feb 2016 07:28:26 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-itm7420-ITM',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1456385300.965529,VS0,VE5575' }
+40 error publish Failed PUT 403
+41 error Error: "You cannot publish over the previously published version 1.0.1." : cordova-plugin-extras-google-play-services
+41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:943:16
+41 error     at process._tickCallback (node.js:419:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Darwin 14.5.0
+44 error command "node" "/usr/local/bin/npm" "publish" "."
+45 error cwd /Users/mac/Documents/github/cordova-plugin-extras-google-play-services
+46 error node -v v0.10.32
+47 error npm -v 1.4.28
+48 verbose exit [ 1, true ]
